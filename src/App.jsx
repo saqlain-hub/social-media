@@ -1,4 +1,5 @@
 import './styles.css'
+import './style.scss'
 
 import {
   createBrowserRouter,
@@ -23,7 +24,7 @@ function App() {
 
   const Layout = () => {
     return (
-      <div>
+      <div className='theme-dark'>
         <Navbar />
           <div style={{ display: "flex" }}>
             <LeftBar />
