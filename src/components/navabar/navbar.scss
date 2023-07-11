@@ -13,12 +13,17 @@
     top: 0;
     background-color: themed("bg");
     color: themed("textColor");
+    z-index: 999;
 
     .left{
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 27px;
 
+        .retuwet {
+            width: 30px;
+        }
+       
         span{
             font-weight: bold;
             font-size: 20px;

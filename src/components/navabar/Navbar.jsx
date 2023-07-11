@@ -1,5 +1,5 @@
 import './navbar.scss'
-import profileImg from '../../assets/img-2.jpg'
+import rtLogo from '../../assets/rt-logo.png'
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
@@ -21,8 +21,9 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className="left">
-            <Link to="/" style={{textDecoration: "none"}}>
-                <span>Retuwet Social</span>
+            <img className='retuwet' src={rtLogo} alt="" />
+            <Link to="/" style={{textDecoration: "none"}}>        
+             <span>Retuwet Social</span>
             </Link>
             <HomeOutlinedIcon />
             {darkMode ? (<WbSunnyOutlinedIcon onClick={ toggle }/>) : (<DarkModeOutlinedIcon onClick={ toggle }/>) }
