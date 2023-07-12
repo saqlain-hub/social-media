@@ -1,4 +1,4 @@
-import React from 'react'
+import "./comments.scss"
 import userPic from '../../assets/img-2.jpg';
 import femalePic from '../../assets/img-4.jpg';
 
@@ -14,7 +14,7 @@ const Comments = () => {
         },
         {
             id: 2,
-            desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque laboriosam atque sed! Id aspernatur reiciendis placeat, quo nam eum sint dolores enim praesentium reprehenderit.",
+            desc: "Adipisicing elit Quibusdam itaque laboriosam atque sed! Id aspernatur reiciendis placeat, quo nam eum sint dolores enim praesentium reprehenderit.",
             name: 'Jane Doe',
             userId: 2,
             profilePicture: femalePic
